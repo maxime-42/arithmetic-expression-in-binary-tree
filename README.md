@@ -14,22 +14,19 @@
 <h4>-The purpose of this program is to do arithmetic expressions</h4>
 <h4>computation as well as computation priority management</h4>
 
-<h4>-I make two versions for the evaluation of an arithmetical expression:</h4>
-<h4>- abstract syntax tree (AST)</h4>
-<h4>- recursive descends</h4>
 
 <h4>-I used the following grammar:</h4>
-<h4>E -> T E'</h4>
-<h4>E'-> + T E' | - T E' | ε</h4>
-<h4>T -> F T'</h4>
-<h4>T'-> * F T' | / F T' | % F T' | ε</h4>
-<h4>F -> (E) | id</h4>
+<p>E -> T E'</p>
+<p>E'-> + T E' | - T E' | ε</p>
+<p>T -> F T'</p>
+<p>T'-> * F T' | / F T' | % F T' | ε</p>
+<p>F -> (E) | id</p>
 
-<h4>-to compute an arithmetical expression you must compile all the c files like this:</h4>
-<h4>compile-> gcc -Wall -Wextra -Werror * .c</h4>
-<h4>execute -> ./a.aout "1 + 1"</h4>
+<p>-to compute an arithmetical expression you must compile all the c files like this:</p>
+<p>compile-> gcc -Wall -Wextra -Werror * .c</p>
+<p>execute -> ./a.aout "1 + 1"</p>
 
-<h4>-for recursive descends I did not implement the modulo operator :)</h4>
+<h4>-for recursive descends I did not implement the modulo operator :) </h4>
 
 <h4>-I helped myself with the following tutorials:</h4>
 <h4>https://www.strchr.com/expression_evaluator</h4>
