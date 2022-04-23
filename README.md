@@ -5,11 +5,6 @@
 <h3>-The purpose of this program is to do arithmetic expressions</h3>
 <h3> computation as well as computation priority management</h3>
 
-<h3> -I make two versions for the evaluation of an arithmetical expression:</h3>
-<h3> - abstract syntax tree (AST)</h3>
-<h3> - recursive descends</h3>
-
-
 <h4>arithmetic_expression_evalution</h4>
 <h4>-The purpose of this program is to do arithmetic expressions</h4>
 <h4>computation as well as computation priority management</h4>
